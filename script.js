@@ -361,6 +361,7 @@ labelBalance.addEventListener('click', function () {
 });
 */
 
+/*
 // 171. Working with BigInt
 console.log(2 ** 53 - 1);
 console.log(Number.MAX_SAFE_INTEGER);
@@ -392,7 +393,48 @@ console.log(huge + ' is REALLY big!!!');
 // Divisions
 console.log(11n / 3n);
 console.log(11 / 3);
+*/
 
 // 172. Creating dates
+
+
+// Create a date
+/*
+const now = new Date();
+console.log(now);
+
+console.log(new Date('Thu May 06 2021 18:42:44'));
+console.log(new Date('September 18, 1968'));
+console.log(new Date(account1.movementsDates[0]));
+
+console.log(new Date(2037, 10, 19, 15, 23, 5));
+console.log(new Date(2037, 10, 31 ));
+
+console.log(new Date(0));
+console.log(new Date(3 * 24 * 60 * 60 * 1000));
+
+
+// Working with dates
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear());
+console.log(future.getMonth());
+console.log(future.getDate());
+console.log(future.getHours());
+console.log(future.getMinutes());
+console.log(future.getSeconds());
+console.log(future.toISOString());
+console.log(future.getTime());
+
+console.log(new Date(2142249780000));
+
+console.log(Date.now());
+
+future.setFullYear(2040);
+console.log(future);
+*/
+
+// 173. Adding Dates to "Bankist" App
+
 
 
