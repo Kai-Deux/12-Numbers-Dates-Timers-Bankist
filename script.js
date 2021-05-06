@@ -334,6 +334,7 @@ console.log((2.345).toFixed(2));
 console.log(+(2.345).toFixed(2));
 */
 
+/*
 // 170. The Remainder Operator
 console.log(5 % 2);
 console.log(5 / 2);
@@ -358,5 +359,40 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
 
 // 171. Working with BigInt
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(2 ** 53 + 1);
+console.log(2 ** 53 + 2);
+console.log(2 ** 53 + 3);
+console.log(2 ** 53 + 4);
+
+console.log(1468884536465254686464655n);
+console.log(BigInt(146888453));
+
+// Operations
+console.log(10000n + 10000n);
+console.log(748545212655252525242222244n + 1000000000n);
+
+const huge = 202555665653000469656n;
+const num = 23;
+console.log(huge + BigInt(num));
+
+// Exception
+console.log(20n > 15);
+console.log(20n === 20);
+console.log(typeof 20n);
+console.log(20n == 20);
+console.log(20n == '20');
+
+console.log(huge + ' is REALLY big!!!');
+
+// Divisions
+console.log(11n / 3n);
+console.log(11 / 3);
+
+// 172. Creating dates
+
+
